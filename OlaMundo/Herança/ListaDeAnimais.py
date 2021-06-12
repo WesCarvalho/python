@@ -15,7 +15,7 @@ if __name__ == '__main__':
     # Receber o nome do animal solicitado pelo usuário
     nomeAnimal = input("Digite o nome de um animal vertebrado:")
 
-     animalEncontrado = list(filter(lambda a: a.nome == nomeAnimal, listaAnimais))
+    animalEncontrado = list(filter(lambda a: a.nome == nomeAnimal, listaAnimais))
 
     if len(animalEncontrado) == 0:
         print("Animal não encontrado.")
